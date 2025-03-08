@@ -101,7 +101,11 @@ ul > li {
   margin: 6px 0;
   border-radius: 20px;
 }
-
+.marq {
+  color: #5d58ef;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 /* Banner */
 .banner-box {
   margin: 20px auto;
@@ -242,6 +246,36 @@ main {
 .card-img {
   border-radius: 18px 18px 0 0;
 }
+.date-badge {
+  position: relative;
+  top: -20px;
+  left: 5%;
+  transform: translateX(-5%);
+  background-color: #3cd8e8;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+}
+.date-badge-small {
+  position: relative;
+  top: -20px;
+  left: 6%;
+  transform: translateX(0%);
+  background-color: purple;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+}
 .card-content-bottom {
   text-align: left;
   padding: 10px 70px 35px 40px;
@@ -375,6 +409,9 @@ footer {
   /* Stories */
   .large-card {
     display: none;
+  }
+  .date-badge-small {
+    transform: scale(0.65) translateX(-25%);
   }
   .stories-subcontainer-2 {
     gap: 10px;
